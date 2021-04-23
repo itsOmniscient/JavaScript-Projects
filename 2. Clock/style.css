@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    background-color: #111111;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+h1, .clock, .switch12btn{
+    color: #B1B1B1;
+}
+
+h1{
+    font-size: 4em;
+    margin-top: 3em;
+    letter-spacing: 20px;
+}
+
+.clock{
+    font-size: 6em;
+    letter-spacing: 5px;
+}
+
+.switch12btn{
+    width: 70px;
+    height: 50px;
+    margin-top: 0.5%;
+    margin-left: 95%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #B1B1B1;
+}
+
+.switch12btn:hover{
+    background-color: #B1B1B1;
+    color: #111111;
+}

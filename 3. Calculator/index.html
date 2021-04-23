@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="calculator_container">
+    <input type="text" name="inputbox" id="inputbox" class="inputboxclass">
+    <div class="calculator_btn_container">
+    <div class="calculator_buttons_div">
+        <button class="btn btn_math" type="submit" onclick="mathBtnPress('+')">+</button>
+        <button class="btn btn_math" type="submit" onclick="mathBtnPress('-')">−</button>
+        <button class="btn btn_math" type="submit" onclick="mathBtnPress('×')">×</button>
+
+        <button class="btn" type="submit" onclick="buttonPress(7)">7</button>
+        <button class="btn" type="submit" onclick="buttonPress(8)">8</button>
+        <button class="btn" type="submit" onclick="buttonPress(9)">9</button>
+
+        <button class="btn" type="submit" onclick="buttonPress(4)">4</button>
+        <button class="btn" type="submit" onclick="buttonPress(5)">5</button>
+        <button class="btn" type="submit" onclick="buttonPress(6)">6</button>
+
+        <button class="btn" type="submit" onclick="buttonPress(1)">1</button>
+        <button class="btn" type="submit" onclick="buttonPress(2)">2</button>
+        <button class="btn" type="submit" onclick="buttonPress(3)">3</button>
+
+        <button class="btn" type="submit" onclick="buttonPress(0)">0</button>
+        <button class="btn" type="submit" onclick="buttonPress('.')">.</button>
+        <button class="btn" type="submit" onclick="buttonClear()">C</button>
+    </div>
+    <div class="calculator_buttons_div2">
+        <button class="btn btn_math" type="submit" onclick="mathBtnPress('÷')">÷</button>
+        <button class="btn btn_equal" type="submit" onclick="equalButPress()">=</button> 
+    </div>
+</div>
+</div>
+    <script src="calculator.js"></script>
+</body>
+</html>
